@@ -352,3 +352,30 @@ header {
 .social-list__link{
 	padding: 0.5em;
 }
+
+.page-not-found {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background: none;
+	top: 60%;
+	left: 50%;
+	margin: -250px 0 0 -250px;
+}
+
+.errorNumber,
+.errorMessage {
+	color: var(--clr-dark);
+}
+
+.errorNumber {
+	font-weight: var(--fw-bold);
+	position: relative;
+	top: .3em;
+	left: .1em;
+}
+
+.errorMessage {
+	text-align: center;
+	background: var(--clr-accent);
+}
