@@ -377,5 +377,6 @@ header {
 
 .errorMessage {
 	text-align: center;
+	line-height: 1.25em;
 	background: var(--clr-accent);
 }
